@@ -40,7 +40,7 @@ function TaskForm() {
         errors.description ="You must enter description";
       }
       if (!values.dueDate){
-        errors.dueDate =" dueDate cannot be blank";
+        errors.dueDate =" DueDate cannot be blank";
       }
       return errors;
   };
