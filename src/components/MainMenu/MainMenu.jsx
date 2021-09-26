@@ -5,7 +5,7 @@ function MainMenu() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <span className="navbar-brand" href="#">
-        Task Manager APP
+        Covid Vaccine  People Managment System
       </span>
       <button
         className="navbar-toggler"
@@ -21,10 +21,10 @@ function MainMenu() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <Link className="nav-link" to="/">
-            <li className="nav-item">Tasks</li>
+            <li className="nav-item">All Vaccinated Member</li>
           </Link>
           <Link className="nav-link" to="/newtask">
-            <li className="nav-item">New Task</li>
+            <li className="nav-item">Add New Vaccinate Member</li>
           </Link>
         </ul>
       </div>
